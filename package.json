@@ -1,0 +1,31 @@
+{
+  "name": "vue_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode production",
+    "preview": "vite preview --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tse018/vue_starter_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tse018/vue_starter_template/issues"
+  },
+  "homepage": "https://github.com/tse018/vue_starter_template#readme",
+  "dependencies": {
+    "vue": "^3.2.24",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "@vue/compiler-sfc": "^3.2.24",
+    "vite": "^2.7.0"
+  }
+}

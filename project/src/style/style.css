@@ -1,0 +1,86 @@
+.grid {
+   width: 100%;
+   margin-bottom: 40px;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   column-gap: 10px;
+   row-gap: 10px;
+}
+
+.order-1 {
+   order: 1;
+}
+
+.order-2 {
+   order: 2;
+}
+
+.order-3 {
+   order: 3;
+}
+
+.order-4 {
+   order: 4;
+}
+
+.order-5 {
+   order: 5;
+}
+
+.order-6 {
+   order: 6;
+}
+
+.grid__item {
+   background: rgb(183, 183, 210);
+   padding: 20px;
+   min-height: 100px;
+   text-align: center;
+}
+
+.colums-2 {
+   grid-column: span 12;
+}
+
+@media screen and (min-width: 768px) {
+   .colums-2 {
+      grid-column: span 6;
+   }
+}
+
+.colums-4 {
+   grid-column: span 3;
+}
+
+.colums-3 {
+   grid-column: span 4;
+}
+
+.colums-6 {
+   grid-column: span 12;
+}
+
+@media screen and (min-width: 488px) {
+   .colums-6 {
+      grid-column: span 4;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .colums-6 {
+      grid-column: span 2;
+   }
+}
+
+.background-variation {
+   background-color: rgb(244, 191, 239);
+}
+
+body {
+   margin: 0 127px;
+   font-family: var(--main-font);
+}
+
+span {
+   display: inline;
+}

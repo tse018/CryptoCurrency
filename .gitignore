@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+dist
+.DS_Store
+.vscode
+Thumbs.db
+.idea
+*Trash
+.env
+.env.development
+.env.production
