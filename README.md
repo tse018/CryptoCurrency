@@ -1,2 +1,2 @@
 # CryptoCurrency API
-Get data from crypto currency and show the data using vue js
+Get data from crypto currency API and show the data using vue js
